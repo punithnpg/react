@@ -58,6 +58,7 @@ function registerEvents() {
   registerTwoPhaseEvent('onBeforeInput', [
     'compositionend',
     'keypress',
+    'keydown',
     'textInput',
     'paste',
   ]);
